@@ -8,11 +8,11 @@ var backgroundImg,platform;
 var ball, slingShot;
 
 function preload() {
-    backgroundImg = loadImage("bg.png");
+    backgroundImg = loadImage("bg.jpg");
 }
 
 function setup(){
-    var canvas = createCanvas(1200,400);
+    var canvas = createCanvas(1000,400);
     engine = Engine.create();
     world = engine.world;
 
